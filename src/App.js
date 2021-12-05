@@ -7,10 +7,9 @@ import {
 } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
+import Person from "./pages/Person/Person";
 import Home from "./pages/Home/Home";
-import Services from "./pages/Service/Services";
+import Movies from "./pages/Movie/Movies";
 import Instruction from "./pages/Instruction/Instruction";
 
 const App = () => {
@@ -22,17 +21,15 @@ const App = () => {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/about" exact>
-            <About />
+          <Route path="/Movie" exact>
+            <Movies />
           </Route>
-          <Route path="/service" exact>
-            <Services />
+          <Route path="/Person" exact>
+            <Person />
           </Route>
+
           <Route path="/Instruction" exact>
             <Instruction />
-          </Route>
-          <Route path="/contact" exact>
-            <Contact />
           </Route>
           <Redirect to="/" />
         </Switch>
