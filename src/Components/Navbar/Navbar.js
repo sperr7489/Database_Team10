@@ -80,12 +80,12 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/service" exact>
+            <NavLink className="nav-link" to="/movie" exact>
               <i className="fas fa-film"></i>영화
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about" exact>
+            <NavLink className="nav-link" to="/Person" exact>
               <i className="far fa-address-book"></i>인물
             </NavLink>
           </li>
