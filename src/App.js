@@ -11,6 +11,7 @@ import Person from "./pages/Person/Person";
 import Home from "./pages/Home/Home";
 import Movies from "./pages/Movie/Movies";
 import Instruction from "./pages/Instruction/Instruction";
+import PersonProfile from "./Components/PersonProfile/PersonProfile";
 
 const App = () => {
   return (
@@ -27,9 +28,11 @@ const App = () => {
           <Route path="/Person" exact>
             <Person />
           </Route>
-
-          <Route path="/Instruction" exact>
+          <Route path="/Instruction" component={Instruction} exact>
             <Instruction />
+          </Route>
+          <Route path="/PersonProfile/:name" component={PersonProfile}>
+            <PersonProfile />
           </Route>
           <Redirect to="/" />
         </Switch>

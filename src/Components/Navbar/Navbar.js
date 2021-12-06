@@ -72,7 +72,6 @@ const Navbar = () => {
             <div className="left"></div>
             <div className="right"></div>
           </div>
-
           <li className="nav-item active">
             <NavLink className="nav-link" to="/" exact>
               <i className="fas fa-tachometer-alt"></i>Home
@@ -80,7 +79,7 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/movie" exact>
+            <NavLink className="nav-link" to="/Movie" exact>
               <i className="fas fa-film"></i>영화
             </NavLink>
           </li>
