@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="container" style={{ display: "flex" }}>
       <h1 style={{ paddingTop: "30%" }}>Home</h1>
-      <PersonElement></PersonElement>
+      <PersonElement name="cat"></PersonElement>
     </div>
   );
 };

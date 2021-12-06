@@ -34,6 +34,9 @@ const App = () => {
           <Route path="/PersonProfile/:name" component={PersonProfile}>
             <PersonProfile />
           </Route>
+          <Route path="/PersonProfile/:name" component={PersonProfile}>
+            <PersonProfile />
+          </Route>
           <Redirect to="/" />
         </Switch>
       </main>
