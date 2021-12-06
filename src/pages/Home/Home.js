@@ -1,11 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import "../../Components/Navbar/page.css"
+
+
 const Home = () => {
+
   return (
-    <div className="container">
-      <h1 className="text-center" style={{ paddingTop: "30%" }}>
-        Home
-      </h1>
+    
+    <div className="Container">
+        <div> home</div>
     </div>
+    
   );
 };
 export default Home;
