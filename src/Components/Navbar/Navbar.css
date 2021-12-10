@@ -142,4 +142,19 @@ i {
     bottom: -25px;
     left: -25px;
   }
+  .show-menu{
+    width: 376px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    transition: 1s;
+    }
+    
+    .hide-menu{
+    width: 376px;
+    height: 500px;
+    position: absolute;
+    left: -376px;
+    transition: 1s;
+    }
 }

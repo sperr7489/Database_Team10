@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
 
+
 const Navbar = () => {
+  //토글 메뉴를 만들어 준다.
+  
   function animation() {
     var tabsNewAnim = $("#navbarSupportedContent");
     var activeItemNewAnim = tabsNewAnim.find(".active");
@@ -32,9 +35,11 @@ const Navbar = () => {
       });
     });
   }
+  
 
   useEffect(() => {
     animation();
+    
     $(window).on("resize", function () {
       setTimeout(function () {
         animation();
@@ -74,7 +79,7 @@ const Navbar = () => {
           </div>
 
           <li className="nav-item active">
-            <NavLink className="nav-link" to="/" exact>
+            <NavLink  className="nav-link" to="/" exact>
               <i className="fas fa-tachometer-alt"></i>Home
             </NavLink>
           </li>
