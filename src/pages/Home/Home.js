@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React from "react";
 import PersonElement from "../../Components/element/PersonElement.js";
+=======
+import React, { Fragment } from "react";
+import "../../Components/page.css"
+>>>>>>> 15c48130475ba3836c4432066792a869e692eba6
 
 import React, { Fragment } from "react";
 import "../../Components/Navbar/page.css";

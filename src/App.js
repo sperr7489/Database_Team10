@@ -13,9 +13,12 @@ import Movies from "./pages/Movie/Movies";
 import Instruction from "./pages/Instruction/Instruction";
 import PersonProfile from "./Components/PersonProfile/PersonProfile";
 
+
 const App = () => {
+  
   return (
     <Router>
+    
       <Navbar />
       <main>
         <Switch>
