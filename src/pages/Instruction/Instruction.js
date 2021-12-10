@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Components/Navbar/page.css"
+import "../../Components/page.css"
 const Instruction = () => {
   return (
     <div className="Container">

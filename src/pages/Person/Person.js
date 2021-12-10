@@ -1,8 +1,8 @@
 import React from "react";
-import "../../Components/Navbar/Sidebar.css"
-import Sidebar from "../../Components/Navbar/Sidebar"
+import "../../Components/Sidebar/Sidebar.css"
+import Sidebar from "../../Components/Sidebar/Sidebar"
 import { NavLink } from "react-router-dom";
-import "../../Components/Navbar/page.css"
+import "../../Components/page.css"
 
 const Person = () => {
   return (

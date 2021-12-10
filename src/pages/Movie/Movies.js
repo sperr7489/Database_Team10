@@ -1,14 +1,13 @@
 import React from "react";
-import "../../Components/Navbar/Sidebar.css"
-import Sidebar from "../../Components/Navbar/Sidebar"
+import "../../Components/Sidebar/Sidebar.css"
+import Sidebar from "../../Components/Sidebar/Sidebar"
 import { NavLink } from "react-router-dom";
-import "../../Components/Navbar/page.css"
+import "../../Components/page.css"
 
 const Movies = () => {
   return (
     <div className="Container">
-      
-      <Sidebar height={"100vh"}>
+      <Sidebar height="1000px">
         <li className="nav-item1"> 
           <NavLink className="navitem" to ="/Movie">개봉예정</NavLink>
         </li>
@@ -19,7 +18,7 @@ const Movies = () => {
           <NavLink className="navitem" to ="/">높은 평점</NavLink>
         </li>
         
-        </Sidebar>
+      </Sidebar>
       <h1 className="text-center" style={{ paddingTop: "30%" }}>
         영화관련
       </h1>
