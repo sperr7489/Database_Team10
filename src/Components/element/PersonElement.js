@@ -1,9 +1,19 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import dog from "../../img/dog.jpeg";
 import { Link } from "react-router-dom";
 import PersonProfile from "../PersonProfile/PersonProfile";
 const PersonElement = (props) => {
   const [elemName, setElemName] = useState("dog");
+  const [data, setData] = useState([{}]);
+
+  useEffect(() => {
+    fetch("/members")
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+        console.log(data);
+      });
+  }, []);
 
   // const test = () => {
   //   if (props.name) {
