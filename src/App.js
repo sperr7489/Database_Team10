@@ -12,9 +12,12 @@ import Home from "./pages/Home/Home";
 import Movies from "./pages/Movie/Movies";
 import Instruction from "./pages/Instruction/Instruction";
 
+
 const App = () => {
+  
   return (
     <Router>
+    
       <Navbar />
       <main>
         <Switch>
